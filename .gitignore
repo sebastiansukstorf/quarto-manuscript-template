@@ -1,3 +1,18 @@
+# .gitignore
 
-/.quarto/
-**/*.quarto_ipynb
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+
+# Quarto/Build
+docs/
+_freeze/
+site_libs/
+
+# VS Code / IDE
+.vscode/
+.idea/

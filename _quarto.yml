@@ -1,0 +1,37 @@
+# _quarto.yml
+project:
+  type: manuscript
+  output-dir: docs          # Output für GitHub Pages
+
+  # Standard-Profil, kann per CLI überschrieben werden
+  profile: default
+
+# Globale Metadaten in separater Datei
+metadata-files:
+  - manuscript-meta.yml
+
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+  pdf:
+    documentclass: article
+    number-sections: true
+    keep-tex: true
+
+profiles:
+  default: {}
+
+  preprint:
+    format:
+      pdf:
+        keep-tex: true
+
+  journal:
+    format:
+      pdf:
+        # optional – nur nutzen, wenn du templates/journal-template.tex anlegst
+        template: templates/journal-template.tex
+
+bibliography: bib/references.bib

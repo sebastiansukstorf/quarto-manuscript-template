@@ -1,0 +1,21 @@
+# manuscript-meta.yml
+title: "Titel des Manuskripts"
+subtitle: "Optionaler Untertitel"
+
+author:
+  - name: "Vorname Nachname"
+    affiliation: "Institution, Stadt"
+    orcid: "0000-0000-0000-0000"
+
+date: today
+
+journal: "Zieljournal oder Konferenz"
+
+keywords:
+  - Schlüsselwort 1
+  - Schlüsselwort 2
+  - Schlüsselwort 3
+
+abstract: >
+  Kurzfassung (Abstract) in ein bis zwei Absätzen.
+  Beschreibe Problem, Ziel, Methode und zentralen Beitrag.

@@ -1,0 +1,29 @@
+---
+# Metadaten kommen aus manuscript-meta.yml
+---
+
+```{=html}
+<p><em>Dies ist die HTML-Version des Manuskripts. Für die eingereichte PDF-Version bitte das passende Profil nutzen (z.B. <code>preprint</code> oder <code>journal</code>).</em></p>
+
+
+---
+
+## 6. Kapitel-Dateien im Ordner `_manuscript/`
+
+### `_manuscript/01-intro.qmd`
+
+```markdown
+## Problemstellung
+
+Beschreibe das Problemfeld, das du untersuchst.
+Was ist die Relevanz (wissenschaftlich / praktisch)?
+
+## Zielsetzung
+
+Formuliere klar:
+- Was ist das Ziel des Artikels?
+- Welche Forschungsfragen / Hypothesen stehen im Fokus?
+
+## Aufbau des Artikels
+
+Gib einen kurzen Überblick darüber, wie der Artikel strukturiert ist.
